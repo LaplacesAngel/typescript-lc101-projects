@@ -2,6 +2,7 @@
 exports.__esModule = true;
 exports.Rocket = void 0;
 var Rocket = /** @class */ (function () {
+    //massKg: number;
     function Rocket(name, totalCapacityKg) {
         this.cargoItems = [];
         this.astronauts = [];
