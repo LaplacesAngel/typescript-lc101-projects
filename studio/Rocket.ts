@@ -14,6 +14,13 @@ export class Rocket implements Payload {
         this.totalCapacityKg = totalCapacityKg;
     }
 
+    //sumMass is expecting an array of Payload objects
+    // items: Payload[]
+    //[
+    //{massKg:10}, 
+    //{massKg:21}
+    //]
+
     sumMass( items: Payload[] ): number {
         let sum: number = 0;
         for (let i = 0; i < items.length; i++){
